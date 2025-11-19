@@ -37,9 +37,9 @@
                             </button>
                         </div>
                     </div>
-                    <div class="mediaDivider"></div>
-                    <div id="externalMedia">
-                        <div class="mediaContainer" style="display: none;">
+                    <div class="mediaDivider" style="display: none;"></div>
+                    <div id="externalMedia" style="display: none;">
+                        <div class="mediaContainer">
                             <a href="<%- lang('landing.mediaGitHubURL') %>" class="mediaURL" id="linkURL">
                                 <svg id="linkSVG" class="mediaSVG" viewBox="35.34 34.3575 70.68 68.71500">
                                     <g>
@@ -49,16 +49,16 @@
                                 </svg>
                             </a>
                         </div>
-                        <div class="mediaContainer" style="display: none;">
+                        <div class="mediaContainer">
                             <a href="<%- lang('landing.mediaXURL') %>" class="mediaURL" id="xURL">
-                                <svg id="xSVG" class="mediaSVG" viewBox="0 0 512 462.799" preserveAspectRatio="xMidYMid meet">	
+                                <svg id="xSVG" class="mediaSVG" viewBox="0 0 275 275">
                                     <g>
-                                        <path d="M403.229 0h78.506L310.219 196.04 512 462.799H354.002L230.261 301.007 88.669 462.799h-78.56l183.455-209.683L0 0h161.999l111.856 147.88L403.229 0zm-27.556 415.805h43.505L138.363 44.527h-46.68l283.99 371.278z"/>
+                                        <path d="m236 0h46l-101 115 118 156h-92.6l-72.5-94.8-83 94.8h-46l107-123-113-148h94.9l65.5 86.6zm-16.1 244h25.5l-165-218h-27.4z"/>
                                     </g>
                                 </svg>
                             </a>
                         </div>
-                        <div class="mediaContainer" style="display: none;">
+                        <div class="mediaContainer">
                             <a href="<%- lang('landing.mediaInstagramURL') %>" class="mediaURL" id="instagramURL">
                                 <svg id="instagramSVG" class="mediaSVG" viewBox="0 0 5040 5040">
                                     <defs>
@@ -78,7 +78,7 @@
                                 </svg>
                             </a>
                         </div>
-                        <div class="mediaContainer" style="display: none;">
+                        <div class="mediaContainer">
                             <a href="<%- lang('landing.mediaYouTubeURL') %>" class="mediaURL" id="youtubeURL">
                                 <svg id="youtubeSVG" class="mediaSVG" viewBox="35.34 34.3575 70.68 68.71500">
                                     <g>
@@ -96,7 +96,7 @@
                                 </svg>
                             </a>
                         </div>
-                        <div class="mediaContainer" style="display: none;">
+                        <div class="mediaContainer">
                             <a href="<%- lang('landing.mediaSoopURL') %>" class="mediaURL" id="soopURL">
                                 <svg id="soopSVG" class="mediaSVG" viewBox="0 0 24 24">
                                 <defs>
@@ -119,7 +119,7 @@
                                 </svg>
                             </a>
                         </div>
-                        <div class="mediaContainer" style="display: none;">
+                        <div class="mediaContainer">
                             <a href="<%- lang('landing.mediaChzzkURL') %>" class="mediaURL" id="chzzkURL">
                                 <svg id="chzzkSVG" class="mediaSVG" viewBox="15 15 60 60">
                                     <g>
@@ -160,6 +160,13 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div id="resolutionSettingsContainer">
+                    <label for="resolutionDropdown">해상도 설정: </label>
+                    <select class="settingsSelectSelected" id="resolutionDropdown">
+                        <option value="1280x720">1280x720</option>
+                        <option value="1920x1080">1920x1080</option>
+                    </select>
                 </div>
             </div>
         </div>

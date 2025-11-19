@@ -1,23 +1,23 @@
 # Custom Language File for Launcher Customizer
 
 [ejs.app]
-title = "미미네팜"
+title = "미미네팜 시즌2"
 
 [ejs.landing]
-mediaGitHubURL = "https://github.com/CustomLauncherLab/Mimis-Farm"
+mediaGitHubURL = "https://github.com/mchlauncher/Mimis-Farm"
 mediaXURL = "#"
 mediaInstagramURL = "#"
 mediaYouTubeURL = "#"
-mediaDiscordURL = "https://discord.gg/6bv5hwQCyE"
+mediaDiscordURL = "#"
 mediaSoopURL = "#"
 mediaChzzkURL = "#"
 screenshotsTooltip = "스크린샷"
 
 [ejs.settings]
-sourceGithubLink = "https://github.com/CustomLauncherLab/Mimis-Farm"
-supportLink = "https://github.com/CustomLauncherLab/Mimis-Farm/issues"
+sourceGithubLink = "https://github.com/mchlauncher/Mimis-Farm"
+supportLink = "https://github.com/mchlauncher/Mimis-Farm/issues"
 
 [ejs.welcome]
 welcomeHeader = "미미네팜"
-welcomeDescription = ""
+welcomeDescription = "시즌2"
 welcomeDescCTA = "계속하기 버튼을 눌러 계속 진행하여 주세요."
